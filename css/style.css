@@ -1,0 +1,51 @@
+body {
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  margin: auto;
+
+}
+
+form {
+  padding: 10px 20px;
+  box-shadow: 0 0 2px 2px rgba(65, 65, 65, 0.3);
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid rgba(65, 65, 65, 0.3);
+}
+
+button {
+  min-width: 88px;
+  height: 36px;
+  margin: 10px;
+  padding: 0 16px;
+  border: 0;
+  outline: 0;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #00796b;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004c40;
+}
+
+li {
+  list-style: none;
+}
+
+.success {
+  color: #4caf50;
+}
+.error {
+  color: #f44336;
+}
